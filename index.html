@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reponsividade.css">
+
+    <title>PortFolio</title>
+
+</head>
+
+<body id="home" >
+
+    <!--------------------------------- HEADER ------------------------------->
+    <header>     
+        <div id="back" onClick="isClose()"></div>
+        <div class="presentation">
+                        
+            <div class="container-title">
+                <p><span>Portfolio</span></p>
+                <p><span class="nome">João Felipe Marcelino</span></p>
+                <p><span>desenvolvedor Full Stack</span></p>
+                <p class="menu-soft"><a href="#about" class="about">Know More ↴</a></p>     
+            </div>
+                       
+            <div class="container-home">
+               
+                <div class="git-home">
+                    <a href="https://github.com/JoaoFelipe25" target="_blank"> 
+                        <i class="fa-brands fa-github"></i>
+                    </a>              
+                </div>
+    
+                <div class="linkedin-home">
+                    <a href="https://www.linkedin.com/in/jo%C3%A3o-felipe-marcelino-da-cruz-143b0010a/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>   
+                </div>
+                
+            </div>
+        
+        </div>     
+        
+
+        <div class="menuTop">
+    
+            <input type="button" id="iconMenu" class="check" onClick="isOpen()">
+            <label for="iconMenu" class="menu-image" ><i class="fa-solid fa-bars fa-3x"></i></label>    
+        
+            <nav class="menu-soft" id="door">
+                <ul onClick="isClose()">
+                <li class="menu-item"><a href="#home" class="menu-a">Home</a></li>
+    
+                <li class="menu-item"><a href="#about" class="menu-a">About</a></li>
+    
+                <li class="menu-item"><a href="#skill" class="menu-a">Skill</a></li>
+            
+                <li class="menu-item"><a href="#project" class="menu-a">Projects</a></li>
+            
+                <li class="menu-item"><a href="#contacts" class="menu-a">Contacts</a></li>
+                </ul>   
+                
+                <div class="close" onClick="isClose()">
+                    <button class="menu-item"><i class="fa-solid  fa-border fa-2x fa-x"></i></button>    
+                </div>
+
+                <div class="phone-menu">
+                    <i class="fa-solid fa-phone">(31) 9 97876988</i> 
+                </div>
+
+                <div class="email-menu">
+                    <i class="fa-solid fa-envelope">joaofelipemarcelinodacruz@yahoo.com.br</i>
+                </div>
+
+                <div class="container-menu">
+
+                    <div class="git-menu">
+                        <a href="https://github.com/JoaoFelipe25" target="_blank"> 
+                            <i class="fa-brands fa-github"></i>
+                        </a>              
+                    </div>
+    
+                    <div class="linkedin-menu">
+                        <a href="https://www.linkedin.com/in/jo%C3%A3o-felipe-marcelino-da-cruz-143b0010a/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>   
+                    </div>
+
+                </div>      
+                
+                
+                <div>
+
+                    <input type="checkbox" class="checkbox" id="darkMode">
+        
+                    <label for="darkMode" class="model">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>      
+                        <div class="ball"></div>
+                    </label>
+                
+                </div>               
+
+            </nav>    
+                 
+        </div>     
+     
+        <div>
+            <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5531997876988" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-square-whatsapp"></i>
+            </a>
+            
+        </div>
+                                                                                                                  
+    </header>
+
+    
+    <!--------------------------------- SECTION MAIN ------------------------------->
+    
+    
+    <section id="about">
+                     
+        <h3>About Me</h3>
+
+        <main>         
+
+            <img src="./assets/joao.jpg" alt="" class="minhafoto">
+            
+            <div >               
+                  
+                <p data-anime="top">
+                    Sou um desenvolvedor full stack, já faz algum tempo que venho me especializando nessa área,
+                    Estou dedicando todo o meu tempo para estudar e criar projetos para evoluir cada vez mais
+                    Nesse mundo das tecnologias, além de estudar diariamente o inglês para me familiarizar mais 
+                    Rápido com as tecnologias e sempre me manter atualizado.                  
+                </p>
+                                              
+            </div>            
+                          
+        </main>   
+               
+        <a href="./assets/Joao_Felipe_Marcelino.pdf" download="Joao Felipe Marcelino" class="curriculo" data-anime="left">curriculo</a>
+            
+    </section>
+    
+        <!--------------------------------- SKIIL -------------------------------> 
+         
+        <div class="sectionSkill" id="skill">
+
+            <h3>My Skill</h3>
+
+            <div class="skill">
+                     
+                <div class="front" data-anime="left">
+        
+                    <span>Front End</span>
+        
+                    <div>
+                                                                         
+                        <i class="fa-brands fa-border fa-html5"><span class="showSkill">HTML</span></i>                                               
+                              
+                        <i class="fa-brands fa-border fa-css3"><span class="showSkill">CSS</span></i>
+        
+                        <i class="fa-brands fa-border fa-square-js"><span class="showSkill">JavaScrip</span></i>
+        
+                        <i class="fa-brands fa-border fa-react"><span class="showSkill">REACT</span></i>
+        
+                        <i class="fa-brands fa-border fa-node-js"><span class="showSkill">NODE JS</span></i>
+        
+                    </div>
+                    
+                </div>
+                
+                <div class="back" data-anime="right">
+        
+                    <span>Back End</span>
+        
+                    <span class="infra">infrastructure</span>
+        
+                    <div>
+        
+                        <i class="fa-brands fa-border fa-java"><span class="showSkill">JAVA</span></i>
+        
+                        <i class="fas fa-border fa-leaf"><span class="showSkill">Spring Boot</span></i>
+        
+                        <i class="fa-solid fa-border fa-database"><span class="showSkill">Banco de dados SQL</span></i>
+        
+                        <i class="fa-border fa-solid fa-cloud"><span class="showSkill">CLOUD</span></i>
+        
+                    </div>
+        
+                </div>
+                
+            </div>
+
+        </div>   
+       
+        
+     <!--------------------------------- PROJECTS ------------------------------->   
+        
+        <div class="projects">
+
+            <h3 id="project">My Projects</h3>
+
+            <div data-slide="slide" class="slide" data-anime="top">
+                <div class="slide-items">
+
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:6966859964443181057/" target="_blank">                               
+                        <img class="conversorCrypto" src="./assets/conversorCrypto2.jpg" alt="conversorCrypto">
+                    </a>  
+                     
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:6969311862442086400/" target="_blank" rel="noopener noreferrer">
+                        <img src="./assets/buscadorCrypto2.jpg" alt="formularioCrud">  
+                    </a>                                        
+                    
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:6961725703805390848/" target="_blank" rel="noopener noreferrer">  
+                        <img class="buscaCep" src="./assets/BuscaCep2.jpg" alt="buscaCep">  
+                    </a>  
+
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:6965287006469787648/" target="_blank" rel="noopener noreferrer">   
+                        <img src="./assets/buscadorCrypto2.jpg" alt="buscadorCrypto">    
+                    </a>  
+
+                </div>
+
+                <div class="slide-nav">
+                    <div class="slide-thumb"></div>
+                    <button class="slide-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button class="slide-next"><i class="fa-solid fa-chevron-right"> </i></button>
+                </div>
+            </div>
+            
+            <div class="git-project">
+                <a href="https://github.com/JoaoFelipe25" target="_blank">
+                    <i class="fa-brands fa-border fa-github"></i>
+                </a> 
+            </div>
+
+        </div>
+         
+        
+<!--------------------------------- CONTACTS ------------------------------->        
+    
+    <footer>
+
+        <h3 id="contacts">Contacts</h3>
+            
+        <div class="contactsOne">
+
+            <div class="localization">
+                <i class="fa-solid fa-location-dot fa-2x"></i>
+                <p>Localização</p>
+                <p>Betim - MG</p>  
+            </div>
+
+            <div class="email">
+                <i class="fa-solid fa-envelope fa-2x"></i>
+                <p>Email</p>
+                <p>joaofelipemarcelinodacruz@yahoo.com.br</p>
+            </div>
+
+            <div class="phone">
+                <i class="fa-solid fa-phone fa-2x"></i>
+                <p>Chamada ou Whatsapp</p>
+                <p>(31) 9 97876988</p>
+            </div>
+
+        </div>
+            
+        <div class="container-fo">
+
+            <div class="git-contact">
+                <a href="https://github.com/JoaoFelipe25" target="_blank"> 
+                    <i class="fa-brands fa-border fa-github"></i>
+                </a>              
+            </div>
+
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/jo%C3%A3o-felipe-marcelino-da-cruz-143b0010a/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-border fa-linkedin"></i>
+                </a>   
+            </div>
+
+            <div class="curri">
+                <a href="./assets/Joao_Felipe_Marcelino.pdf" download="Joao Felipe Marcelino">
+                    <i class="fa-solid fa-border fa-file-pdf"></i>
+                </a>             
+            </div>
+
+        </div>
+
+        <div class="ident">
+            <p>&copy; Portfolio | 2022 - Joao Felipe - 0.1.0</p>
+        </div>   
+
+    </footer>
+    
+    <script src="./script.js"></script>
+    
+    <script src="https://kit.fontawesome.com/469bc87361.js" crossorigin="anonymous"></script>
+   
+</body>
+</html>
