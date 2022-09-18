@@ -12,7 +12,7 @@ function fixedMenuOnTop(){
     }
 }
 
-// --------------menu black ----------------------
+// --------------black background ----------------------
 
 function isClose(){
   let open = document.querySelector('#door');

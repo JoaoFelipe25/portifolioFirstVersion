@@ -1,0 +1,197 @@
+/*Celular*/
+@media screen and (min-width:0px) and (max-width:500px){
+
+    /*header*/
+
+    nav{
+        width: 200px;
+    }
+
+    .close{
+        margin-left: 239px; 
+    }
+
+    .email-menu{
+        font-size: 6px;
+    }
+
+    .container-title span{
+        font-size: 13px;
+    }
+    .presentation .nome{
+        font-size: 50px;
+    }
+    .about{
+        font-size: 20px;
+    }
+
+    .whatsapp-link {
+        right: 10px;
+    }
+
+    .fa-square-whatsapp{
+        font-size: 50px;
+    }
+
+    /*section*/
+
+    main p{
+        width: 300px;
+    }
+    .curriculo{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    /*skill*/
+
+    .sectionSkill{
+        background-color: white;
+    }
+    .skill{
+        width: 300px;  
+    }
+    .back{
+        margin-top: 15px;
+    }
+    .front i:hover .showSkill{   
+        color: rgb(4, 80, 243);
+    }
+    .back i:hover .showSkill{   
+        color: rgb(4, 80, 243);
+    }
+    /*
+    .front{
+        width: 150px;
+        height: 430px;
+        
+    }
+    .back{
+        width: 150px;
+        height: 430px;
+    
+    }
+    .infra{
+        display: none;
+    }
+    */
+    
+    /*projects*/
+
+    .projects{
+        margin-top: 500px;
+    }
+    .slide{
+        max-width: 300px;
+    }
+    .slide-prev{
+        margin-left: -140px;
+        margin-top: -320px;
+    }
+    .slide-next{
+        margin-left: 100px;
+        margin-top: -320px;
+    }
+    .slide-thumb > span{
+        margin-top: -500px;
+    }
+
+    /*footer*/
+
+    .contactsOne{
+        font-size: 10px;
+        width: 100%;
+    }
+    
+    .git-contact .fa-github{
+        font-size: 35px;
+    }
+    .linkedin .fa-linkedin{
+        font-size: 35px;
+    }
+    .fa-file-pdf{
+        font-size: 35px;  
+    }
+}
+
+/*tablet*/
+@media screen and (min-width:501px) and (max-width:800px){
+    /*header*/
+
+    nav{
+        width: 300px;
+    }
+
+    .close{
+        margin-left: 331px; 
+    }
+
+    .email-menu{
+        font-size: 10px;
+    }
+
+    .container-title span{
+        font-size: 15px;
+    }
+    .presentation .nome{
+        font-size: 55px;
+    }
+    .about{
+        font-size: 22px;
+    }
+
+    .whatsapp-link {
+        right: 10px;
+    }
+
+    .fa-square-whatsapp{
+        font-size: 50px;
+    }
+
+    /*section*/
+
+    main p{
+        width: 390px;
+    }
+    .curriculo{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    /*skill*/
+
+    .skill{
+        width: 400px;  
+    }
+    .front{
+        width: 150px;
+        height: 430px;
+        
+    }
+    .back{
+        width: 150px;
+        height: 430px;
+    
+    }
+    .infra{
+        display: none;
+    }
+
+    /*footer*/
+
+    .contactsOne{
+        font-size: 10px;
+        width: 100%;
+    }
+    
+    .git-contact .fa-github{
+        font-size: 40px;
+    }
+    .linkedin .fa-linkedin{
+        font-size: 40px;
+        color: rgb(4, 80, 243);
+    }
+    .fa-file-pdf{
+        font-size: 40px;  
+    }
+}
