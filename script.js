@@ -63,7 +63,7 @@ function scrollToPosition(to) {
   smoothScrollTo(0, to);
 }
 
-// funçao para funcionar em todos os browser/oragamid
+// funçao para funcionar em todos os browser
 /**
  * Smooth scroll animation
  * @param {int} endX: destination x coordinate

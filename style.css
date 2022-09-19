@@ -142,30 +142,12 @@ ul{
     z-index: 1;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 40%, #000 100%);
 }
-/*
-.presentation img{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    filter: blur(2px);    
-}
-*/
+
 .container-title{
     position: absolute;
     z-index: 2;
 }
-/*
-.presentation span{
-    color: rgb(250, 250, 250);
-    font-size: 30px;
-    font-style: italic;
-    font-family: monospace;    
-}
-*/
+
 .presentation .nome{
     color: white;
     font-size: 80px;
@@ -834,7 +816,6 @@ footer h3{
 .container-title, h3{
     visibility: hidden;
 }
-/*
 
 [data-anime]{
     opacity: 0;

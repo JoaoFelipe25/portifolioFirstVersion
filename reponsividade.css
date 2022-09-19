@@ -4,15 +4,15 @@
     /*header*/
 
     nav{
-        width: 200px;
+        width: 300px;
     }
 
     .close{
-        margin-left: 239px; 
+        margin-left: 331px; 
     }
 
     .email-menu{
-        font-size: 6px;
+        font-size: 8px;
     }
 
     .container-title span{
@@ -46,10 +46,13 @@
     /*skill*/
 
     .sectionSkill{
-        background-color: white;
+        background-color: rgba(0,0,0,0.2);
+        border: solid 1px black;
     }
     .skill{
         width: 300px;  
+        height: 1000px;
+        border: solid 1px red;
     }
     .back{
         margin-top: 15px;
@@ -60,26 +63,11 @@
     .back i:hover .showSkill{   
         color: rgb(4, 80, 243);
     }
-    /*
-    .front{
-        width: 150px;
-        height: 430px;
-        
-    }
-    .back{
-        width: 150px;
-        height: 430px;
-    
-    }
-    .infra{
-        display: none;
-    }
-    */
     
     /*projects*/
 
     .projects{
-        margin-top: 500px;
+        margin-top: 70px;
     }
     .slide{
         max-width: 300px;
